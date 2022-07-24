@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    margin-top: 30px;
+}
+.menu{
+    color: #fff;
+    font-size: 35px;
+}
+#headsection h1{
+    margin-top: 215px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+   
+}
+#headsection form{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+#headsection input{
+    width: 325px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: rgb(226, 153, 17);
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+#headsection button{
+    width: 140px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400px;
+}
+#iki{
+   height: 550px;
+   background-color: rgb(199, 236, 236);
+}
+#iki h2{
+    font-size: 17px;
+    font-weight: 400px;
+    padding-top: 30px;
+}
+#iki .container > p{
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+#dests {
+    display: flex;
+margin-top: 25px;}
+.dest h3{
+    font-size: 17px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dest p{
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 17px;
+    width: 200px;
+}
+.dest{
+    background-color: white;
+    margin-right: 15px;
+}
